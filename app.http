@@ -1,0 +1,28 @@
+GET http://localhost:3000/players/
+
+
+
+POST http://localhost:3000/players/
+content-type:application/json 
+
+{
+    "playerName":"sai",
+    "jerseyNumber":18,
+    "role":"alrounder"
+}
+
+
+GET http://localhost:3000/players/11/
+
+
+
+PUT http://localhost:3000/players/1/
+content-type:application/json 
+
+{
+    "playerName":"ram",
+    "jerseyNumber":17,
+    "role":"wicket Keeper"   
+}
+
+DELETE http://localhost:3000/players/12/
